@@ -3,7 +3,7 @@ package border.cake.maratonajava.javacore.Bintroducaometodos.test;
 import border.cake.maratonajava.javacore.Bintroducaometodos.dominio.Estudante;
 import border.cake.maratonajava.javacore.Bintroducaometodos.dominio.ImpressoraEstudante;
 
-public class EstudanteTest01 {
+public class EstudanteTest02 {
     public static void main(String[] args) {
         Estudante estudante01 = new Estudante();
         Estudante estudante02 = new Estudante();
@@ -18,12 +18,7 @@ public class EstudanteTest01 {
         estudante02.idade = 21;
         estudante02.sexo = 'F';
 
-        impressora.imprime(estudante01);
-        impressora.imprime(estudante02);
-
-        System.out.println("###########");
-
-        impressora.imprime(estudante01);
-        impressora.imprime(estudante02);
+        estudante01.imprime();;
+        estudante02.imprime();;
     }
 }
