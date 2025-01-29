@@ -35,6 +35,7 @@ public class Calculadora {
         }
         System.out.println(num1 / num2);
     }
+
     public void alteraDoisNumeros(int numero1, int numero2){
         numero1 = 99;
         numero2 = 33;
@@ -45,11 +46,17 @@ public class Calculadora {
 
     public void somaArray(int[] numeros){
         int soma = 0;
-        for (int num: numeros){
+        for (int num : numeros){
             soma += num;
         }
         System.out.println(soma);
     }
 
-    public void somaVarArgs()
+    public void somaVarArgs(double valor, double v2, int... numeros){
+        int soma = 0;
+        for (int num: numeros) {
+            soma += num;
+        }
+        System.out.println(soma);
+    }
 }
