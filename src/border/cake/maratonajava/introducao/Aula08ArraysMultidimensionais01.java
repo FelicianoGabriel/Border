@@ -21,10 +21,10 @@ public class Aula08ArraysMultidimensionais01 {
             }
         }
         System.out.println("----------------------------------------------------------------------");
-         for (int[] arrBase: days){
-             for (int num: arrBase){
-                 System.out.println(num);
-             }
-         }
+        for (int[] arrBase : days) {
+            for (int num : arrBase) {
+                System.out.println(num);
+            }
+        }
     }
 }
