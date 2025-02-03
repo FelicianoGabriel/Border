@@ -11,7 +11,7 @@ public class Aula02TiposPrimitivos {
         short ageShort = 3200;
         boolean truee = true;
         boolean falsee = false;
-        char aa = (char) 65k;
+        char aa = (char) 65;
         char character = '\u0041';
         String name = "Goku";
         System.out.println("The age is "+age+" years");
