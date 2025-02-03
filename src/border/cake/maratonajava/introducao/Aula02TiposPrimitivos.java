@@ -11,12 +11,14 @@ public class Aula02TiposPrimitivos {
         short ageShort = 3200;
         boolean truee = true;
         boolean falsee = false;
+        char aa = (char) 65k;
         char character = '\u0041';
         String name = "Goku";
         System.out.println("The age is "+age+" years");
         System.out.println(falsee);
         System.out.println("char "+character);
         System.out.println(bigNumber);
-    System.out.println("Hi my name's "+name);
+        System.out.println("Hi my name's "+name);
+        System.out.println(aa);
     }
 }
