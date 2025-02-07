@@ -9,10 +9,10 @@ public class Aula06EstruturasDeRepeticao04 {
 //        System.out.println("Você pode parcelar em: "+valorParcela);
         double valorTotal = 30000;
         for (int parcela = 0; parcela <= valorTotal ; parcela++) {
-           double valorParcela = valorTotal / parcela;
-           if (valorParcela < 1000){
-               continue;
-           }
+            double valorParcela = valorTotal / parcela;
+            if (valorParcela < 1000){
+                continue;
+            }
             System.out.println("Parcela " + parcela + " R$ " + valorParcela);
         }
     }
