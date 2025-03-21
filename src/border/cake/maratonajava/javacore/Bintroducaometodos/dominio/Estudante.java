@@ -1,7 +1,5 @@
 package border.cake.maratonajava.javacore.Bintroducaometodos.dominio;
 
-import java.util.jar.JarOutputStream;
-
 public class Estudante {
     public String nome;
     public int idade;

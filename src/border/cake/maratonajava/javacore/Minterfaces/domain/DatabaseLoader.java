@@ -1,7 +1,5 @@
 package border.cake.maratonajava.javacore.Minterfaces.domain;
 
-import org.w3c.dom.ls.LSOutput;
-
 public class DatabaseLoader implements DataLoader, DataRemover {
 
     // Private -> default -> protected -> public ->

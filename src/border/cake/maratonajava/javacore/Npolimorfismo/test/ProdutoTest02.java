@@ -10,7 +10,7 @@ public class ProdutoTest02 {
         Produto produto = new Computador("Ryzen 9", 5000);
 
         Tomate tomate = new Tomate("American", 12);
-        tomate.setDataValidade("28/06/2008");
+        tomate.setDataValidade("28/08/2008");
 
         CalculadoraImposto.calcularImposto(tomate);
         System.out.println("---------------------");

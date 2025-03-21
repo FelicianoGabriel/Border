@@ -3,6 +3,7 @@ package border.cake.maratonajava.javacore.Minterfaces.domain;
 public interface DataLoader {
 
     public static final int MAX_DATA_SIZE = 10;
+    int max_size_data = 100;
 
     void load();
     default void checkPermission(){
@@ -12,5 +13,4 @@ public interface DataLoader {
     public static void retrieveMaxSize() {
         System.out.println("Dentro do retrieveMaxSize na interface " + MAX_DATA_SIZE);
     }
-
 }

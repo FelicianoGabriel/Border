@@ -13,7 +13,7 @@ public class Carro {
         return nome;
     }
 
-    public void setNome(String npme) {
-        this.nome = npme;
+    public void setNome(String nome) {
+        this.nome = nome;
     }
 }

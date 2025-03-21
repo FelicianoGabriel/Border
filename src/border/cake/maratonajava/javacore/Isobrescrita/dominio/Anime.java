@@ -10,6 +10,8 @@ public class Anime {
                 '}';
     }
 
+    
+    
     public Anime(String nome) {
         this.nome = nome;
     }
